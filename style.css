@@ -124,3 +124,88 @@ button {
     border: 5px solid #3882F6;
     border-radius: 20px;
 }
+
+.thirdSection {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 770px;
+}
+
+.thirdSection .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.thirdSection .source {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    margin-right: 30px;
+}
+
+.fourthSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthSection .callToActionContainer {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.callToActionContainer button {
+    border: 2px solid white;
+}
+
+.fourthSection .callToActionText {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.callToActionText h5 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.callToActionText p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
